@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BACKUP_FOLDER="$HOME/repos/dotfiles"
+BACKUP_FOLDER="$HOME/repos/dotfiles-linux"
 SUBLIME_3="$HOME/.config/sublime-text-3/Packages"
 
 function backup {
@@ -27,6 +27,8 @@ function backup_dotfiles {
 function backup_sublime {
   cp -r $SUBLIME_3/User $BACKUP_FOLDER/Sublime_3
   cp -r $SUBLIME_3/Themes $BACKUP_FOLDER/Sublime_3
+
+  rm -rf $BACKUP_FOLDER/Sublime_3/User/Package\ Control.cache
 }
 
 $@
