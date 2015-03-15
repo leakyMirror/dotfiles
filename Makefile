@@ -1,2 +1,2 @@
 backup:
-	bash backuper backup
+	@ bash backuper backup

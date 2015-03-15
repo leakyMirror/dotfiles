@@ -1,0 +1,168 @@
+#!/bin/bash
+
+BIN=$HOME/bin
+export EDITOR=/usr/bin/subl
+
+# Original PATH
+# PATH="/usr/lib/lightdm/lightdm:/usr/local/sbin: \
+# /usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
+
+# My Custom PATH
+PATH="/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
+#################################################
+## LANGUAGES
+#################################################
+export PYTHONPATH="$HOME/repos/python-modules"
+export PYTHONDONTWRITEBYTECODE="TRUE"
+
+# Python local packages
+PYTHON_HOME="$HOME/.local"
+PATH="$PATH:$PYTHON_HOME/bin"
+
+# pypy
+PYPY_HOME="$BIN/pypy"
+PATH="$PATH:$PYPY_HOME/bin"
+
+# Node
+NODE_HOME="$BIN/node/bin"
+PATH="$PATH:$NODE_HOME"
+
+# Java
+JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-amd64
+PATH="$PATH:$JAVA_HOME"
+export JAVA_HOME
+
+# Scala
+SCALA_HOME="$BIN/scala/bin"
+PATH="$PATH:$SCALA_HOME"
+
+# SBT
+SBT_HOME="$BIN/sbt/bin"
+PATH="$PATH:$SBT_HOME"
+
+# Julia
+export JULIA_LOAD_PATH="/home/justas/repos/julia-modules"
+JULIA_HOME="$BIN/julia"
+PATH="$PATH:$JULIA_HOME/bin"
+
+# Julie test
+JULIETEST_HOME="$HOME/.julia/v0.3/JulieTest"
+PATH="$PATH:$JULIETEST_HOME"
+
+# ruby-installer
+RUBYINSTALLER_HOME="$BIN/ruby-install/"
+PATH="$PATH:$RUBYINSTALLER_HOME/bin"
+
+# ruby
+RUBY_HOME="$BIN/ruby"
+PATH="$PATH:$RUBY_HOME/bin"
+
+# golang
+GOLANG_HOME="$BIN/go"
+PATH="$PATH:$GOLANG_HOME/bin"
+export GOROOT="$BIN/go"
+export GOPATH="$BIN/go/bin"
+
+# leiningen
+LEIN_HOME="$BIN/lein"
+PATH="$PATH:$LEIN_HOME/"
+
+
+#################################################
+## TOOLS
+#################################################
+
+# CLITOOLS
+CLITOOLS_HOME="$BIN/cli-tools"
+PATH="$PATH:$CLITOOLS_HOME/bin"
+
+# My tools
+MY_TOOLS_HOME="$BIN/tools"
+PATH="$PATH:$MY_TOOLS_HOME"
+
+# Dropbox CLI
+DROPBOX_CLI_HOME="$BIN/dropbox"
+PATH="$PATH:$DROPBOX_CLI_HOME"
+
+# entr testing for bash scripts
+ENTR_HOME="$BIN/entr"
+PATH="$PATH:$ENTR_HOME/bin"
+
+# shpec testing for bash scripts
+# SHPEC_HOME="$BIN/shpec"
+# PATH="$PATH:$SHPEC_HOME/bin"
+
+# Vowpal Wabbit
+VW_HOME="$BIN/vowpal_wabbit"
+PATH="$PATH:$VW_HOME/vowpalwabbit"
+PATH="$PATH:$VW_HOME/utl"
+
+# tapkee
+TAPKEE_HOME="$BIN/tapkee"
+PATH="$PATH:$TAPKEE_HOME/bin"
+
+##################################################
+
+
+# PhantomJS
+PHANTOMJS_HOME="$BIN/phantomjs/bin"
+PATH="$PATH:$PHANTOMJS_HOME"
+
+# Slimerjs
+SLIMERJS_HOME="$BIN/slimerjs"
+PATH="$PATH:$SLIMERJS_HOME"
+
+# Conscript & g8
+CONG8_HOME="$BIN"
+PATH="$PATH:$CONG8_HOME"
+
+# Spark
+SPARK_HOME="$BIN/spark"
+PATH="$PATH:$SPARK_HOME/bin"
+
+# LightTable
+LIGHTTABLE_HOME="$BIN/LightTable"
+PATH="$PATH:$LIGHTTABLE_HOME"
+
+# RStudio
+RSTUDIO_HOME="$BIN/rstudio"
+PATH="$PATH:$RSTUDIO_HOME/bin"
+
+# SQLite
+SQLITE_HOME="$BIN/sqlite3"
+PATH="$PATH:$SQLITE_HOME/bin"
+
+# MongoDB
+MONGODB_HOME="$BIN/mongo"
+PATH="$PATH:$MONGODB_HOME/bin"
+
+# Parallel
+PARALLEL_HOME="$BIN/parallel"
+PATH="$PATH:$PARALLEL_HOME/bin"
+
+# cmake (for tapkee)
+CMAKE_HOME="$BIN/cmake"
+PATH="$PATH:$CMAKE_HOME/bin"
+
+# stanford classifier
+SC_HOME="$BIN/stanford-classifier"
+PATH="$PATH:$SC_HOME/"
+
+# # bashmarks
+# BASHMARKS_HOME="$BIN/bashmarks"
+# PATH="$PATH:$BASHMARKS_HOME/"
+
+# MESOS_HOME="$BIN/mesos/build/bin"
+# PATH="$PATH:$MESOS_HOME"
+
+# Maven
+# MAVEN_HOME="~/bin/apache-maven-3.2.2"
+# PATH="$PATH:$MAVEN_HOME/bin"
+
+#################################################
+## Mine
+#################################################
+
+# vimrc source folder
+export VIM_SOURCE=/home/justas/repos/notes/war_of_editors/vim/vimrc

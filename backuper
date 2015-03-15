@@ -15,12 +15,12 @@ function create_folders {
 }
 
 function backup_dotfiles {
-  FILE=('.bash_aliases' '.bash_env' '.vimrc'
-        '.tmux' '.gitconfig' '.gitignore' '.jshintrc'
-        '.jsbeautifyrc' '.face' '.juliarc' '.julia')
+  FILES=('.bash_aliases' '.bash_env' '.vimrc' '.tmux.conf'
+         '.gitconfig' '.gitignore' '.jshintrc'
+         '.jsbeautifyrc' '.face' '.juliarc' '.julia/v0.3/REQUIRE')
 
-  for file in "${FILES[@]}"; do
-    cp $HOME/$file $BACKUP_FOLDER/dotfiles
+  for FILE in "${FILES[@]}"; do
+    cp $HOME/$FILE $BACKUP_FOLDER/dotfiles
   done
 }
 
