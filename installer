@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+function transfer_dot_files {
+  rsync -r dotfiles/ $HOME
+  rm -f $HOME/hosts_bak
+  rm -f $HOME/REQUIRE
+
+  # Instal Vundle
+  mkdir -p $HOME/.vim
+  git clone https://github.com/gmarik/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
+}
+
+function config_sublime {
+  mkdir -p $HOME/.config/sublime-text-3
+  S3=$HOME/.config/sublime-text-3
+
+  S3_BACKUP=Sublime_3
+
+  # Install Package Control
+  mkdir -p $S3/Installed\ Packages
+  cd $S3/Installed\ Packages
+  wget http://sublime.wbond.net/Package%20Control.sublime-package
+
+  # Move settings files
+  # rsync -r $BACKUP/User/* $S3/Packages/User/
+  # rsync -r $BACKUP/Themes/* $S3/Packages/Themes
+}
+
+$@
