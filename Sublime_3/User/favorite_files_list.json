@@ -1,0 +1,69 @@
+{
+    "files": [
+
+        // Config
+        "/home/justas/repos/notes/main_notes/dev notes/bash",
+        "/home/justas/.bash_env",
+        "/home/justas/.bash_aliases",
+        "/home/justas/.config/sublime-text-3/Packages/User/favorite_files_list.json",
+        "/home/justas/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+        "/home/justas/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+        "/home/justas/.vimrc",
+        "/home/justas/.tmux.conf",
+
+        // Productivity
+        "/home/justas/repos/notes/main_notes/books.md",
+        "/home/justas/repos/notes/main_notes/links.org",
+
+        // Dev
+        "/home/justas/repos/notes/war_of_editors/vim/commands",
+        "/home/justas/repos/notes/war_of_editors/vim/tmux",
+
+        "/home/justas/repos/notes/main_notes/index.org",
+        "/home/justas/repos/notes/main_notes/dev notes/javascript",
+        "/home/justas/repos/notes/main_notes/dev notes/node",
+        "/home/justas/repos/notes/main_notes/stats notes/R",
+        "/home/justas/repos/notes/main_notes/stats notes/vw",
+        "/home/justas/repos/notes/main_notes/stats notes/old.R",
+        "/home/justas/repos/notes/main_notes/stats notes/julia",
+        "/home/justas/repos/notes/main_notes/dev notes/scala ",
+        "/home/justas/repos/notes/main_notes/dev notes/python",
+        "/home/justas/repos/notes/main_notes/dev notes/ruby",
+        "/home/justas/repos/notes/main_notes/dev notes/meteor",
+        "/home/justas/repos/notes/main_notes/dev notes/mongo",
+        "/home/justas/repos/notes/main_notes/dev notes/csvkit",
+
+
+        "/home/justas/repos/notes/main_notes/dev notes/git",
+        "/home/justas/repos/notes/main_notes/dev notes/RegEx.md",
+        "/home/justas/repos/notes/main_notes/dev notes/mongo.md",
+        "/home/justas/repos/notes/main_notes/dev notes/sqlite",
+
+        "/home/justas/repos/notes/main_notes/stats notes/tools.org",
+        "/home/justas/repos/notes/main_notes/stats notes/papers.org",
+        "/home/justas/repos/notes/main_notes/career.org",
+        "/home/justas/Dropbox/Notes/global notes.txt",
+        "/home/justas/repos/node-practise/codewars-katas/katas.org",
+
+        "/home/justas/repos/notes/war_of_editors/text-editor-spec.md",
+
+
+        "/home/justas/repos/notes/R/ggplot2.R",
+        "/home/justas/repos/notes/JS/libs.md",
+        "/home/justas/repos/notes/main_notes/linux commands",
+        "/home/justas/repos/notes/R/R commands-old.R",
+        "/home/justas/repos/notes/other/html.jade",
+        "/home/justas/repos/notes/other/css.styl",
+        "/home/justas/repos/notes/other/services.txt",
+        "/home/justas/repos/notes/config/install_aws.sh",
+        "/home/justas/repos/notes/main_notes/sublime.md",
+        "/home/justas/repos/notes/main_notes/sublime3.md",
+    ],
+    "groups": {
+        "qqqq": [
+            "/home/justas/repos/notes/install/install_tools/sync",
+            "/home/justas/repos/notes/install/install_elementary/src/5_install_dev.sh"
+        ]
+    },
+    "version": 1
+}

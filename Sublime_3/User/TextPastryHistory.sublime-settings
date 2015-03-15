@@ -1,0 +1,235 @@
+{
+	"history":
+	[
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "\\i",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "\\i"
+			},
+			"key": "1bd7ee1ce72751da4e64129f6d32db41",
+			"label": "\\i"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "1",
+					"stop": "11"
+				},
+				"command": "text_pastry_range",
+				"text": "range 1 11"
+			},
+			"key": "6ebf378a955780951431d374326326da",
+			"label": "range 1 11"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "9",
+					"stop": "11"
+				},
+				"command": "text_pastry_range",
+				"text": "range 9 11"
+			},
+			"key": "41cd24cd993ef0f6f2812a0fe4bdb660",
+			"label": "range 9 11"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"stop": "9"
+				},
+				"command": "text_pastry_range",
+				"text": "range 9"
+			},
+			"key": "7ed36a346cd4eb89519fa0949c0e82a2",
+			"label": "range 9"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 "
+				},
+				"command": "text_pastry_step",
+				"text": "1 "
+			},
+			"key": "9d9dff9320e27082b15b4ed7a086ba83",
+			"label": "1 "
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"stop": "2"
+				},
+				"command": "text_pastry_range",
+				"text": "range 2"
+			},
+			"key": "3a7d910a1f9af0c965c93a249c7dc552",
+			"label": "range 2"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "7"
+				},
+				"command": "text_pastry_step",
+				"text": "7"
+			},
+			"key": "8f14e45fceea167a5a36dedd4bea2543",
+			"label": "7"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "range 6 ",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "range 6 "
+			},
+			"key": "30f3b4268e1251f4db49464a1b835472",
+			"label": "range 6 "
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "7",
+					"stop": "100"
+				},
+				"command": "text_pastry_range",
+				"text": "range 7 100"
+			},
+			"key": "0cd86d9fc50e33fff35d89f3cb56c98b",
+			"label": "range 7 100"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "8",
+					"stop": "100"
+				},
+				"command": "text_pastry_range",
+				"text": "range 8 100"
+			},
+			"key": "63075665b87ed4cd1b1bf820213171b9",
+			"label": "range 8 100"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "13",
+					"stop": "100"
+				},
+				"command": "text_pastry_range",
+				"text": "range 13 100"
+			},
+			"key": "2af69f267eab7fc1916acefaab0029a0",
+			"label": "range 13 100"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "29",
+					"stop": "100"
+				},
+				"command": "text_pastry_range",
+				"text": "range 29 100"
+			},
+			"key": "eeb5da7da0489cc06e7b44b8a191906c",
+			"label": "range 29 100"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "33",
+					"stop": "100"
+				},
+				"command": "text_pastry_range",
+				"text": "range 33 100"
+			},
+			"key": "445fbdf2e8cc41ac98cd293291e80336",
+			"label": "range 33 100"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "35",
+					"stop": "100"
+				},
+				"command": "text_pastry_range",
+				"text": "range 35 100"
+			},
+			"key": "3721371cde90149df96b87ae97bf255e",
+			"label": "range 35 100"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "36",
+					"stop": "100"
+				},
+				"command": "text_pastry_range",
+				"text": "range 36 100"
+			},
+			"key": "493c5671836fe1b43963b49c3759cfd9",
+			"label": "range 36 100"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "range A Z",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "range A Z"
+			},
+			"key": "6878b91ae0b4b0fb39deda7dfa8d1f90",
+			"label": "range A Z"
+		}
+	],
+	"last_command":
+	{
+		"args":
+		{
+			"text": "range A Z",
+			"threshold": 3
+		},
+		"command": "text_pastry_insert_text",
+		"text": "range A Z"
+	}
+}

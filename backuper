@@ -1,7 +1,7 @@
 #!/bin/bash
 
-BACKUP_FOLDER="$HOME/repos/dotfiles-linux"
-SUBLIME_3=~/.config/sublime-text-3/Packages
+BACKUP_FOLDER="$HOME/repos/dotfiles"
+SUBLIME_3="$HOME/.config/sublime-text-3/Packages"
 
 function backup {
   create_folders

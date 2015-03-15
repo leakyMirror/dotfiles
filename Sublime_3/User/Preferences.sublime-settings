@@ -1,0 +1,27 @@
+{
+	"color_scheme": "Packages/Customized/Customized.tmTheme",
+	"folder_exclude_patterns":
+	[
+		".git",
+		"node_modules",
+		"project",
+		".meteor/local"
+	],
+	"font_face": "Courier New",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Coco R Syntax Highlighting"
+	],
+	"index_exclude_patterns":
+	[
+		"*.log",
+		"/home/justas/repos/meteor-resume/.meteor*",
+		"/home/justas/repos/meteor-twitter-clone/.meteor/local*",
+		"/home/justas/repos/meteor-twatter/.meteor/local*",
+		"/home/justas/repos/meteor-famous/.meteor/local*"
+	],
+	"show_panel_on_build": true,
+	"trim_trailing_white_space_on_save": true
+}
