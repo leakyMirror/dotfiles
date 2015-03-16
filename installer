@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+function install {
+  transfer_dot_files
+  config_sublime
+}
+
 function transfer_dot_files {
   rsync -r dotfiles/ $HOME
   rm -f $HOME/hosts_bak
@@ -22,8 +27,8 @@ function config_sublime {
   wget http://sublime.wbond.net/Package%20Control.sublime-package
 
   # Move settings files
-  # rsync -r $BACKUP/User/* $S3/Packages/User/
-  # rsync -r $BACKUP/Themes/* $S3/Packages/Themes
+  rsync -r $BACKUP/User/* $S3/Packages/User/
+  rsync -r $BACKUP/Themes/* $S3/Packages/Themes
 }
 
 $@
