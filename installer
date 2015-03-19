@@ -13,22 +13,26 @@ function transfer_dot_files {
   # Instal Vundle
   mkdir -p $HOME/.vim
   git clone https://github.com/gmarik/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
+
+  . .bashrc
 }
 
 function config_sublime {
-  mkdir -p $HOME/.config/sublime-text-3
+  mkdir -p $HOME/.config/sublime-text-3/Packages
   S3=$HOME/.config/sublime-text-3
 
-  S3_BACKUP=Sublime_3
+  S3_BACKUP=./sublime_3
 
   # Install Package Control
   mkdir -p $S3/Installed\ Packages
-  cd $S3/Installed\ Packages
-  wget http://sublime.wbond.net/Package%20Control.sublime-package
+  wget -P $S3/Installed\ Packages http://sublime.wbond.net/Package%20Control.sublime-package
 
   # Move settings files
-  rsync -r $BACKUP/User/* $S3/Packages/User/
-  rsync -r $BACKUP/Themes/* $S3/Packages/Themes
+  echo $S3_BACKUP/User
+  echo $S3/Packages/User
+
+  rsync -r $S3_BACKUP/User/ $S3/Packages/User/
+  rsync -r $BACKUP/Themes/ $S3/Packages/Themes/
 }
 
 $@
